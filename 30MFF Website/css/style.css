@@ -1,0 +1,305 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    width: 100%;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+video {
+    display: block;
+    margin: auto;
+}
+
+.starting {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(35, 35, 133);
+    border: 15px solid white;
+    padding-top: 260px;
+    padding-left: 450px;
+    padding-right: 470px;
+    text-align: center;
+    margin: auto;
+}
+
+.starting-aboutus {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(35, 35, 133);
+    border: 15px solid white;
+    padding-top: 260px;
+    padding-left: 250px;
+    text-align: center;
+    margin: auto;
+}
+
+.starting-statement {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(35, 35, 133);
+    border: 15px solid white;
+    padding-top: 260px;
+    padding-left: 310px;
+    padding-right: 290px;
+    text-align: center;
+    margin: auto;
+}
+
+.starting-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.starting-item:hover {
+    background-color: rgb(215, 64, 40);
+}
+
+.logo {
+    display: inline-block;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: rgb(215, 64, 40);
+}
+
+.navbar-item:hover {
+    background-color: rgb(215, 64, 40);
+}
+
+.navbar-item:hover a {
+    color: white;
+}
+
+.profiles a {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.profiles:hover {
+    background-color: rgb(215, 64, 40);
+}
+
+.about-block {
+    display: flex;
+}
+
+.about-block li {
+    list-style-type: none;
+    padding: 25px;
+    background-color: lightgray;
+}
+
+.contact-item {
+    display: block;
+    width: 300px;
+    border: 10px solid rgb(215, 64, 40);
+    box-shadow: 10px 10px;
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-info {
+    padding-left: 50px;
+    padding-right: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    line-height: 30px;
+}
+
+.heading {
+    text-align: center;
+    line-height: 100px;
+}
+
+.about-film {
+    background-color: rgb(215, 64, 40);
+    border: 15px solid white;
+    color: white;
+}
+
+.about-film-body {
+    padding-left: 100px;
+    padding-right: 120px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 50px;
+}
+
+.technique-list {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.technique-list li {
+    list-style-type: none;
+    padding: 25px;
+    background-color: lightgray;
+}
+
+.technique-item {
+    border: 15px solid white;
+    font-size: larger;
+}
+
+.technical-details {
+    border: 15px solid white;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.tdItem {
+    margin-bottom: 30px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgray;
+    color: lightgray;
+}
+
+/* slideshow container */
+.slideshow-container {
+    max-width: 950px;
+    position: relative;
+    margin: auto;
+}
+
+/* hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* on hover, add orange background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(215, 64, 40, 0.8);
+}
+
+/* caption text */
+.text {
+    color: #f2f2f2;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* the dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: lightblue;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: rgb(35, 35, 133);
+}
+
+/* fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.logo img {
+    width: 135px;
+    vertical-align: middle;
+}
+
+.top-link {
+    padding-left: 550px;
+    padding-right: 550px;
+    text-align: center;
+}
+
+#footer-color {
+    display: block;
+    background-color: lightgray;
+    margin-top: 20px;
+}
