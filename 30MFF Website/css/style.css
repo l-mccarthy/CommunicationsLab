@@ -27,6 +27,7 @@ video {
     margin: auto;
 }
 
+/* starting menu template */
 .starting {
     width: 100%;
     height: 600px;
@@ -39,6 +40,7 @@ video {
     margin: auto;
 }
 
+/* starting menu for about us page */
 .starting-aboutus {
     width: 100%;
     height: 600px;
@@ -50,6 +52,7 @@ video {
     margin: auto;
 }
 
+/* starting menu for filmmakers' statement page */
 .starting-statement {
     width: 100%;
     height: 600px;
@@ -62,6 +65,7 @@ video {
     margin: auto;
 }
 
+/* formatting for each itmem in starting menu list */
 .starting-item a {
     display: inline-block;
     padding: 10px 15px;
@@ -71,25 +75,49 @@ video {
     color: white;
 }
 
+/* if cursor hovers change background color */
 .starting-item:hover {
     background-color: rgb(215, 64, 40);
 }
 
+/* formatting for all headings on website */
+.heading {
+    text-align: center;
+    line-height: 100px;
+}
+
+/* for all items made to be centered on website */
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* website logo display setting */
 .logo {
     display: inline-block;
 }
 
+/* website logo formatting */
+.logo img {
+    width: 135px;
+    vertical-align: middle;
+}
+
+/* navbar container */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/* disable bullet point list */
 .navbar-links {
     display: flex;
     list-style: none;
 }
 
+/* formatting navbar text items */
 .navbar-item a {
     display: inline-block;
     padding: 10px 15px;
@@ -97,14 +125,17 @@ video {
     color: rgb(215, 64, 40);
 }
 
+/* if cursor hovers change background color */
 .navbar-item:hover {
     background-color: rgb(215, 64, 40);
 }
 
+/* if cursor hovers change text color */
 .navbar-item:hover a {
     color: white;
 }
 
+/* starting menu profile links */
 .profiles a {
     display: inline-block;
     padding: 10px 15px;
@@ -114,20 +145,24 @@ video {
     color: white;
 }
 
+/* if cursor hovers change background color */
 .profiles:hover {
     background-color: rgb(215, 64, 40);
 }
 
+/* container for team's bios */
 .about-block {
     display: flex;
 }
 
+/* bios list formatting*/
 .about-block li {
     list-style-type: none;
     padding: 25px;
     background-color: lightgray;
 }
 
+/* contact information list for each bio */
 .contact-item {
     display: block;
     width: 300px;
@@ -136,12 +171,7 @@ video {
     text-align: center;
 }
 
-.center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
+/* formatting for bio text */
 .about-info {
     padding-left: 50px;
     padding-right: 70px;
@@ -150,17 +180,14 @@ video {
     line-height: 30px;
 }
 
-.heading {
-    text-align: center;
-    line-height: 100px;
-}
-
+/* container for text describing the film */
 .about-film {
     background-color: rgb(215, 64, 40);
     border: 15px solid white;
     color: white;
 }
 
+/* formatting text describing the film */
 .about-film-body {
     padding-left: 100px;
     padding-right: 120px;
@@ -171,29 +198,36 @@ video {
     line-height: 50px;
 }
 
+/* container for film techniques used */
 .technique-list {
     display: flex;
     padding-left: 100px;
     padding-right: 100px;
 }
 
+/* formatting list of film techniques used */
 .technique-list li {
     list-style-type: none;
-    padding: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
     background-color: lightgray;
 }
 
+/* formatting film technique list text items */
 .technique-item {
     border: 15px solid white;
     font-size: larger;
 }
 
+/* technical details list container */
 .technical-details {
     border: 15px solid white;
     background-color: lightgray;
     text-align: center;
 }
 
+/* formatting technical details list text items */
 .tdItem {
     margin-bottom: 30px;
     padding: 20px;
@@ -231,19 +265,19 @@ video {
     user-select: none;
 }
 
-/* position the "next button" to the right */
+/* position "next button" to the right */
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-/* on hover, add orange background color with a little bit see-through */
+/* add slight transparent orange background color on hover */
 .prev:hover,
 .next:hover {
     background-color: rgba(215, 64, 40, 0.8);
 }
 
-/* caption text */
+/* image caption text */
 .text {
     color: #f2f2f2;
     background-color: rgba(0, 0, 0, 0.8);
@@ -255,7 +289,7 @@ video {
     text-align: center;
 }
 
-/* the dots/bullets/indicators */
+/* dots/bullets/indicators */
 .dot {
     cursor: pointer;
     height: 15px;
@@ -288,17 +322,14 @@ video {
     }
 }
 
-.logo img {
-    width: 135px;
-    vertical-align: middle;
-}
-
+/* "TAKE ME BACK UP" link at the end of every page */
 .top-link {
     padding-left: 550px;
     padding-right: 550px;
     text-align: center;
 }
 
+/* footer formatting with nyuad logo */
 #footer-color {
     display: block;
     background-color: lightgray;
