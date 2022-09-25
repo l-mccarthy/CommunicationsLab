@@ -4,7 +4,9 @@
 
 ### Project Description:
 
+This project is a webpage created to house and debut my group's 30 Minute Film Festival film, titled *Moving Forward*. As this film is part of a hypothetical "film festival" where you want people to watch your film, I wanted to brand this project as lighthearted and welcoming, but also professional and worthwile. The title of my project is the same as of the film. The film has a certain "driving" element to it and I wanted to carry this momentum into the flow of my webpage.
 
+What is the story? The title? The tag line? The font? The colors? Bios for the actors? Behind the scenes photos? 
 
 ### Process:
 
