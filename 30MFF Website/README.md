@@ -38,7 +38,7 @@ Then, the next - and much longer - step was implementing the wireframe into code
 
 * For HTML I had to make 4 separate documents for each page of the webpage. Every page incorporated a navigation bar, a button that takes the user back to the top of the page, and a footer with the NYUAD logo, while the rest of a page's contents were catered to its specific purpose. In addition, every page has a link that refers to certain sections of the page to tailor towards more specific navigation. The home page loads the local video with controls so the user can freely pause and play it. The about us page is divided into many lists and divs with classes so it can be easily organized later. The statement page is mostly text. The details page mainly includes the code for the image carousel, this was taken from w3schools.com (https://www.w3schools.com/howto/howto_js_slideshow.asp) and sections were replaced with the relevent code and images pertaining my project.
 * For CSS it was one document for the style loaded into each html file.
-* For Javascript it was one document for the script loaded into each html file.
+* For Javascript it was one document for the script loaded into each html file. Apart from the image carousel javascript code taken from w3schools, the file also includes code for the mouse interaction which changes colour of text and background along the grayscale spectrum according to mouse y-coordinates, whereby the basis of the code was taken from the HelloJS example. Plus, there is code for smooth scrolling which makes the in-page links to different sections flow naturally instead of instantly taking the user there (also from w3schools https://www.w3schools.com/howto/howto_css_smooth_scroll.asp).
 
 ### Reflection/Evaluation:
 
