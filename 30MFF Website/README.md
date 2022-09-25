@@ -8,6 +8,8 @@ This project is a webpage created to house and debut my group's 30 Minute Film F
 
 As a result, I told the "story" of the film through the use of interactive links that move you "forward" and sequenced a logical progression that the user takes through the webpage. What is most important is the film, which is why it takes up the honme page, and second most important is promoting the people who made the film. The next on the level of importance is what the creators intended to do with the film and how they achieved it, but of course the audience is free to interpret the film which is why the section is not as important. Finally, the last page contains more details about the film for those who are interested. I made the final page the most interactive as I am assuming most users are starting to lose interest by the time they get to this page, whereby incorporating interactivity creates newfound interest.
 
+Furthermore, I also had to keep in mind the stylistic elements of the webpage. I chose the orange annd blue colour scheme for my webpage as it is a colour combination often used in films since they provide a dynamic contrast and simulate the opposite spectrums of colour temperature in light (warm is orange tones and cool is blue tones). In fact, the orange and blue color palettes are commonly used for representations of play and summer fun, depicting both the hot, summer sun and the cool, refreshing water, thus emphasizing the playful nature of the film and its soundtrack.
+
 
 
 The font? The colors? Bios for the actors? Behind the scenes photos? 
