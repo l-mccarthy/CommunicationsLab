@@ -10,9 +10,7 @@ As a result, I told the "story" of the film through the use of interactive links
 
 Furthermore, I also had to keep in mind the stylistic elements of the webpage. I chose the orange annd blue colour scheme for my webpage as it is a colour combination often used in films since they provide a dynamic contrast and simulate the opposite spectrums of colour temperature in light (warm is orange tones and cool is blue tones). In fact, the orange and blue color palettes are commonly used for representations of play and summer fun, depicting both the hot, summer sun and the cool, refreshing water, thus emphasizing the playful nature of the film and its soundtrack.
 
-
-
-The font? The colors? Bios for the actors? Behind the scenes photos? 
+The bios for the actors are quite rudimentary but it is good to provide a "face" behind the film. Plus, the behind the scenes photos of the filming locations give a sense of life outside the film's world which gives the webpage more personality.
 
 ### Process:
 
