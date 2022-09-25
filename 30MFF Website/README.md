@@ -42,3 +42,10 @@ Then, the next - and much longer - step was implementing the wireframe into code
 
 ### Reflection/Evaluation:
 
+It is interesting to evaluate the final product because it turned out almost exactly like how I planned it in the wireframe, which is a good thing on the surface, but it also means that I might have been able to try and push myself further on this project. In terms of the webpage's content, most of what was planned made it, but I think I would have benefitted from adding more interactivity, especially in the "Filmmakers' Statement" page which was mostly static.
+
+Also I originally had more written about the motivations of the film but condensed it into a poem-like format because people hate reading lots of text, though I am still not sure if that was the right move. On the other hand, I showed my website to a couple peers and let them test and navigate it, and they found the layout easy to understand and interact with.
+
+In terms of the code, 
+
+Overall, I am satsified with what I created since this is my first time with html and css, and I also learned a lot on the nature of code, how to communicate between the computer's way of thinking and mine, as well as what makes an engaging website.
