@@ -4,7 +4,9 @@
 
 ### Project Description:
 
-This project is a webpage created to house and debut my group's 30 Minute Film Festival film, titled *Moving Forward*. As this film is part of a hypothetical "film festival" where you want people to watch your film, I wanted to brand this project as lighthearted and welcoming, but also professional and worthwile. The title of my project is the same as of the film. The film has a certain "driving" element to it and I wanted to carry this momentum into the flow of my webpage.
+This project is a webpage created to house and debut my group's 30 Minute Film Festival film, titled *Moving Forward*. As this film is part of a hypothetical "film festival" where you want people to watch your film, I wanted to brand this project as lighthearted and welcoming, but also professional and worthwile. The title of my project is the same as of the film. Our short film has a certain "driving" element to it and I wanted to carry this momentum into the flow of my webpage.
+
+As a result, I told the "story" of the film through the use of interactive links that move you "forward" and sequenced a logical progression that the user takes through the webpage. What is most important is the film, which is why it takes up the honme page, and second most important is promoting the people who made the film. The next on the level of importance is what the creators intended to do with the film and how they achieved it, but of course the audience is free to interpret the film which is why the section is not as important. Finally, the last page contains more details about the film for those who are interested. I made the final page the most interactive as I am assuming most users are starting to lose interest by the time they get to this page, whereby incorporating interactivity creates newfound interest.
 
 What is the story? The title? The tag line? The font? The colors? Bios for the actors? Behind the scenes photos? 
 
