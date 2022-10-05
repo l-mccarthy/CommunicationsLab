@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Scuba Diver Scroll</title>
+	<link href="style.css" rel="stylesheet">
+	<script src="script.js" defer></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<!-- Navigation bar -->
+	<div id="nav">
+		<!-- link to divs on the same page using their id names -->
+		<a href="#sky">
+			<div class="nav-btn" id="first-page"></div>
+		</a>
+		<a href="#sunlightzone">
+			<div class="nav-btn" id="second-page"></div>
+		</a>
+		<a href="#twilightzone">
+			<div class="nav-btn" id="third-page"></div>
+		</a>
+		<a href="#deepsea">
+			<div class="nav-btn" id="fourth-page"></div>
+		</a>
+	</div>
+	<!-- 
+	Four full browser size sections:
+	1. Sky & Boat
+	2. Sunlight Zone
+	3. Twilight Zone
+	4. Deep Sea
+	 -->
+	<div id="sky">
+		<!-- Content to display inside the sky div -->
+		<div id="boat-div">
+			<img id="boat" src="img/boat.png">
+		</div>
+	</div>
+	<div id="sunlightzone" class="block-section">
+		<p class="text">SUNLIGHT ZONE</p>
+		<!-- Content to display inside the sky div -->
+		<div id="fish-div">
+			<img id="fish" src="img/fish.png">
+		</div>
+	</div>
+	<div id="twilightzone">
+		<!-- Content to display inside the twilightzone div -->
+		<div id="jellyfish-div">
+			<img id="jellyfish" src="img/jellyfish1.png">
+			<p class="text">TWILIGHT ZONE</p>
+		</div>
+	</div>
+	<div id="deepsea" class="block-section">
+		<p class="text">THE ABYSS
+		</p>
+	</div>
+	<!-- diver div position is fixed on the bottom left corner of the web page -->
+	<div id="diver-div">
+		<span id="diver-text">Hello!</span>
+		<img id="diver" src="img/diver.png">
+	</div>
+</body>
+
+</html>
