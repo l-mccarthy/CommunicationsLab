@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>DECISIONS</title>
+	<link href="style.css" rel="stylesheet">
+	<script src="script.js" defer></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<!-- 
+	Four full browser size sections:
+	1. Panel 1
+	2. Panel 2
+	3. Panel 3
+	4. Panel 4
+	 -->
+	<div id="panel1"></div>
+	<div id="panel2">
+		<div class="block-section">
+			<img src="img/forest.jpg" alt="">
+		</div>
+	</div>
+	<div id="panel3"></div>
+	<div id="panel4" class="block-section">
+		<button class="button button1"><a href="path1.html">Left</a></button>
+		<button class="button button2"><a href="path2.html">Right</a></button>
+	</div>
+
+	<script type="text/javascript">
+
+		$(window).scroll(function () {
+			var scrollPos = $(this).scrollTop();
+			$("#panel1").css({
+				'background-size': 100 + scrollPos + '%'
+			});
+		});
+
+	</script>
+
+</body>
+
+</html>

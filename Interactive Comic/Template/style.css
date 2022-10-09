@@ -1,0 +1,85 @@
+html {
+	/* Set height of the html page to 100% of the browser height */
+	height: 100%;
+	/* Hide horizontal scroll */
+	overflow-x: hidden;
+	font-family: 'Helvetica', sans-serif;
+	scroll-behavior: smooth;
+}
+
+body {
+	/* Set height of the body to 100% -- separated out of html to allow scrollTo animation */
+	height: 100%;
+	margin: 0px;
+}
+
+/* 
+Parallax: panel1 and panel3 sections;
+*/
+#panel1,
+#panel3 {
+	/* Set height of div to 100% */
+	height: 100%;
+	/* The bottom three background CSS settings create parallax effect */
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+#panel1 {
+	/* Set background image of panel1 section using url() function */
+	background-image: url('img/classroom.jpg');
+}
+
+#panel2 {
+	background-image: url('img/forest.jpg');
+}
+
+#panel3 {
+	background-image: url('img/forest2.jpg');
+}
+
+#panel4 {
+	background-image: url('img/crossroad.jpg');
+}
+
+/* 
+Block sections after panel1 and panel3 sections
+*/
+.block-section {
+	/* Center text in the middle of browser using flexbox */
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button {
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 270px;
+	cursor: pointer;
+}
+
+.button1 {
+	background-color: #af4c4c;
+}
+
+.button2 {
+	background-color: #008CBA;
+}
+
+#path1 {
+	height: 100%;
+	background-image: url('img/abstract.webp');
+}
+
+#path2 {
+	height: 100%;
+	background-image: url('img/realism.jpg');
+}
